@@ -1520,7 +1520,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     z-index: 501;
 }
 
-.header-logo a {
+/*.header-logo a {
     display: block;
     margin: 9px 0 0 0;
     padding: 0;
@@ -1529,7 +1529,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 80px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
+}*/
 
 
 /* -------------------------------------------------------------------
@@ -1804,9 +1804,19 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin-top: 0;
 }
 
-.logo {
+.naming {
   font-family: "librebaskerville-bold", serif;
-  color:#f2f2f2"
+  font-size: 6rem;
+  color:#f2f2f2;
+  padding-bottom: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+}
+
+.foot{
+    font-size: 4rem;
+    font-weight: 600;
 }
 
 .home-content__main {
