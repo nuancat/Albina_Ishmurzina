@@ -1284,8 +1284,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro.has-bottom-sep {
-    padding-bottom: 1.5rem;
+    padding-bottom: 5rem;
     position: relative;
+}
+
+.row.about-content{
+  padding-bottom: 5rem;
 }
 
 .section-intro.has-bottom-sep::after {
@@ -1806,13 +1810,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .naming {
   font-family: "librebaskerville-bold", serif;
-  font-size: 6rem;
+  font-size: 3em;
   color:#f2f2f2;
   padding-bottom: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   font-weight: 600;
 }
+
 
 .foot{
     font-size: 4rem;
@@ -2237,6 +2242,15 @@ html.no-csstransitions .home-content__main {
   background-position: 0% 0% 0% 25%;
 }
 
+.bioPicture{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 700px;
+  width: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/3.jpg");
+}
+
 
 /* -------------------------------------------------------------------
  * ## timeline - (_site-layout.scss)
@@ -2356,7 +2370,11 @@ html.no-csstransitions .home-content__main {
 }
 
 @media only screen and (max-width: 400px) {
-    .about-content .left {
+    .about-content
+
+
+
+     {
         padding-right: 0;
     }
     .about-content .right {
