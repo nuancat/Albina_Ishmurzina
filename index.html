@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
-    <link href="http://allfont.ru/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
-    <link href="http://allfont.ru/allfont.css?fonts=libre-baskerville" rel="stylesheet" type="text/css" />
+    <!-- <link href="http://allfont.ru/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
+    <link href="http://allfont.ru/allfont.css?fonts=libre-baskerville" rel="stylesheet" type="text/css" /> -->
 
 
     <!-- script
@@ -76,7 +76,7 @@
             <div class="row home-content__main">
 
                 <div class="home-content__buttons">
-                    <a href="#works" class="smoothscroll btn btn--stroke">
+                    <a href="#events" class="smoothscroll btn btn--stroke">
                         Концерты
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
@@ -119,8 +119,8 @@
 
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full text-center">
-                <h3>About</h3>
-                <h1>More About Me</h1>
+                <h3>Обо мне</h3>
+                <h1>Немного обо мне</h1>
                 <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
             </div>
         </div>
@@ -128,7 +128,7 @@
         <div class="row about-content">
 
             <div class="col-six tab-full left">
-                <h3>Howdy!</h3>
+                <h3>Краткая биография</h3>
 
                 <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
 
@@ -138,56 +138,22 @@
             </div>
 
             <div class="col-six tab-full right">
-                <h3>I've Got Some skills.</h3>
+              <!-- Правая боковая колонка в биографии -->
 
-                <ul class="skill-bars">
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>HTML5</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>CSS3</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>JQuery</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent95"><span>95%</span></div>
-                    <strong>PHP</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Wordpress</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Angular JS</strong>
-                    </li>
-                </ul>
+
             </div>
 
         </div> <!-- end about-content -->
 
-        <div class="row about-content about-content--buttons">
-
-            <div class="col-six tab-full left">
-                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
-            </div>
-            <div class="col-six tab-full right">
-                <a href="#0" class="btn full-width">Hire Me Now</a>
-            </div>
-
-        </div> <!-- end about-content buttons -->
 
         <div class="row about-content about-content--timeline">
 
-            <div class="col-full text-center">
-                <h3>My Work Experience.</h3>
+            <div class="col-full text-center section-intro">
+              <h3>Сцена</h3>
+              <h1>Предстоящие выступления</h1>
             </div>
 
-            <div class="col-six tab-full left">
+            <div id="events" class="col-six tab-full left">
                 <div class="timeline">
 
                     <div class="timeline__block">
@@ -258,8 +224,8 @@
 
         <div class="row narrow section-intro has-bottom-sep">
             <div class="col-full">
-                <h3>Portfolio</h3>
-                <h1>See My Latest Projects.</h1>
+                <h3>Портфолио</h3>
+                <h1>Мои последние музыкальные клипы</h1>
 
                 <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
             </div>
@@ -531,7 +497,7 @@
 
         <div class="row testimonials-header">
             <div class="col-full">
-                <h1 class="h02">What People Say.</h1>
+                <h1 class="h02">Мои стихи</h1>
             </div>
         </div>
 
@@ -752,7 +718,7 @@
                         <input name="contactName" type="text" id="contactName" placeholder="Имя" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Электронная почта" value="" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
                         <input name="contactSubject" type="text" id="contactSubject" placeholder="Тема" value="" required="" aria-required="true" class="full-width">
@@ -761,7 +727,7 @@
                         <textarea name="contactMessage" id="contactMessage" placeholder="Сообщение" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                     </div>
                     <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
+                        <button class="full-width btn--primary">Отправить</button>
                         <div class="submit-loader">
                             <div class="text-loader">Sending...</div>
                             <div class="s-loader">
@@ -788,26 +754,12 @@
             </div>
             <div class="col-four tab-full contact__infos">
                 <h4 class="h06">Телефон</h4>
-                <p>Phone: 8(800)200 6000<br>
-                <!-- Mobile: (+63) 555 0100<br>
-                Fax: (+63) 555 0101 -->
-                </p>
+                <p> 8(800)200 6000 </p>
 
                 <h4 class="h06">Email</h4>
-                <p>someone@holawebsite.com<br>
-                info@holawebsite.com
-                </p>
-
-                <!-- <h4 class="h06">Address</h4>
-                <p>
-                1600 Amphitheatre Parkway<br>
-                Mountain View, CA<br>
-                94043 US
-                </p> -->
+                <p>123@yandex.ru</p>
             </div>
-
         </div>
-
     </section> <!-- end s-contact -->
 
 

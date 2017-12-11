@@ -2230,6 +2230,13 @@ html.no-csstransitions .home-content__main {
     padding-left: 40px;
 }
 
+.bioRightColumn{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 80%;
+  background-image: url(images/bioRight.jpg);
+  background-position: 0% 0% 0% 25%;
+}
+
 
 /* -------------------------------------------------------------------
  * ## timeline - (_site-layout.scss)
@@ -2625,7 +2632,7 @@ html.no-csstransitions .home-content__main {
 
 
 /* ===================================================================
- * # testimonials - (_site-layout.scss)
+ * # section-intro - (_site-layout.scss)
  *
  * ------------------------------------------------------------------- */
 
@@ -3075,15 +3082,15 @@ html.no-csstransitions .home-content__main {
     background-color: #070606;
 }
 
-.s-contact .section-intro h1 {
+.s-contact . h1 {
     color: #FFFFFF;
 }
 
-.s-contact .section-intro p {
+.s-contact . p {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.s-contact .section-intro.has-bottom-sep::after {
+.s-contact ..has-bottom-sep::after {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
