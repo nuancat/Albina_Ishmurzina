@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 }
 
 h1, .h01, h2, .h02, h3, .h03, h4, .h04 {
-    margin-top: 6rem;
+    margin-top: 3rem;
     margin-bottom: 1.8rem;
 }
 
@@ -2653,11 +2653,11 @@ html.no-csstransitions .home-content__main {
 
 .s-testimonials {
     background-color: #0D0A0B;
-    background-image: url("../images/testimonial-bg.jpg");
+    background-image: url("../images/st.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
-    padding-top: 9.6rem;
-    padding-bottom: 10.2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     color: rgba(255, 255, 255, 0.5);
     position: relative;
 }
@@ -2786,7 +2786,7 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__slide {
     position: relative;
-    padding-top: 4.5rem;
+    padding-top: 1.5rem;
     padding-left: 12rem;
     padding-right: 3rem;
     line-height: 2.063;
