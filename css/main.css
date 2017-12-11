@@ -84,7 +84,7 @@ html, body {
 
 body {
     background: #0a0809;
-    font-family: "librebaskerville-regular", serif;
+    font-family: "Times-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
     color: #5f5f5f;
@@ -217,11 +217,11 @@ em, i, strong, b {
 }
 
 em, i {
-    font-family: "librebaskerville-italic", serif;
+    font-family: "Times-italic", serif;
 }
 
 strong, b {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Times-bold", serif;
 }
 
 small {
@@ -273,7 +273,7 @@ blockquote cite a, blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Times-bold", serif;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -438,7 +438,7 @@ table {
     border-width: 0;
     width: 100%;
     max-width: 100%;
-    font-family: "librebaskerville-regular", serif;
+    font-family: "Times-regular", serif;
 }
 
 th, td {
@@ -772,7 +772,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
     display: inline-block;
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -1081,7 +1081,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .stats-tabs li a {
     display: inline-block;
     font-size: 2.5rem;
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     border: none;
     color: #151515;
 }
@@ -1267,14 +1267,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Times-bold", serif;
     font-size: 4.8rem;
     line-height: 1.375;
     margin-top: 0;
 }
 
 .section-intro h3 {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "Times New Roman New Roman", sans-serif;
     font-size: 2rem;
     color: #862121;
     text-transform: uppercase;
@@ -1803,7 +1803,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Times-bold", serif;
     color: #FFFFFF;
     font-size: 6rem;
     line-height: 1.35;
@@ -1811,13 +1811,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .naming {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Times-bold", serif;
   font-size: 3em;
   color:#f2f2f2;
   padding-bottom: 20px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 
@@ -1862,7 +1862,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll a {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     font-size: 1.1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
@@ -2237,17 +2237,12 @@ html.no-csstransitions .home-content__main {
     padding-left: 40px;
 }
 
-.bioRightColumn{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  height: 80%;
-  background-image: url(images/bioRight.jpg);
-  background-position: 0% 0% 0% 25%;
-}
 
 .bioPicture{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   height: 700px;
   width: auto;
+
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/3.jpg");
@@ -2506,7 +2501,7 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__title {
     color: #FFFFFF;
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -2684,7 +2679,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .testimonials-header h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Times-bold", serif;
     font-size: 4.2rem;
     margin-top: 0;
     color: #FFFFFF;
@@ -2970,7 +2965,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Times-bold", serif;
     font-size: 7.2rem;
     line-height: 1;
     color: #0D0A0B;
@@ -2994,7 +2989,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats h4 {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     margin-top: 1.8rem;
     color: rgba(0, 0, 0, 0.4);
     font-size: 1.8rem;
@@ -3083,9 +3078,10 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("../images/contact.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
+    background-size: 130%;
     padding-top: 13.2rem;
     padding-bottom: 12rem;
     color: rgba(255, 255, 255, 0.5);
@@ -3125,7 +3121,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .form-field label {
-    font-family: "montserrat-semibold", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     font-size: 1.1rem;
     line-height: 2.4rem;
     position: absolute;
@@ -3655,7 +3651,7 @@ article.blog-single .blog-content {
 .page-header__title {
     color: #FFFFFF;
     position: relative;
-    font-family: "librebaskerville-bold", serif;
+    font-family: "Times-bold", serif;
     font-size: 6.6rem;
     line-height: 1.227;
     margin-top: 0;
