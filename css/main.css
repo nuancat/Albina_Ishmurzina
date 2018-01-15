@@ -1753,9 +1753,6 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-
-
-
 @-webkit-keyframes fadeOut {
     from {
         opacity: 1;
