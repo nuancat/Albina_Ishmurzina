@@ -1923,7 +1923,7 @@ html.no-csstransitions .home-content__main {
 
   background-size: 100%;
   background-repeat: no-repeat;
-  background-image: url("../images/3.jpg");
+  background-image: url("../images/3-compressed.jpg");
 }
 
 
@@ -2299,7 +2299,7 @@ html.no-csstransitions .home-content__main {
 
 .s-testimonials {
     background-color: #0D0A0B;
-    background-image: url("../images/st.jpg");
+    background-image: url("../images/st-compressed.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 8rem;
@@ -2619,7 +2619,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight {
-    background: #111111 url("../images/count-bg.jpg");
+    background: #111111 url("../images/count-bg-compressed.jpg");
     background-size: 175px 175px;
     position: relative;
 }
@@ -2687,7 +2687,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact.jpg");
+    background-image: url("../images/contact-compressed.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     background-size: 130%;
