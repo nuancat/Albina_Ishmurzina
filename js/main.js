@@ -376,7 +376,7 @@
                     error: function() {
 
                         sLoader.slideUp("slow");
-                        $('.message-warning').html("Произошла ошибка. Повторите позже...");
+                        $('.message-warning').html("Произошла ошибка. Пожалуйста, повторите позже.");
                         $('.message-warning').slideDown("slow");
 
                     }
